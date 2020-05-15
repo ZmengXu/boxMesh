@@ -1,0 +1,6 @@
+#g++ -o boxMesh boxMesh.C
+./Allclean
+make
+mkdir -p constant/polyMesh
+./boxMesh 10 10 10 10 10 10
+
